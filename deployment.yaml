@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: app-test
-        image: israelbalog01/cicd-test-app:3ecffbe4ddf800aa16112bea4914d7fc6c6bedf6
+        image: israelbalog01/cicd-test-app@sha256:e455a07cf89f45708e0d2e2257a77d8ee5b1e3415f9ffcf38690600745510464
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
